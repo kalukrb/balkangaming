@@ -1,0 +1,42 @@
+body{
+    background: rgba(0, 0, 0, 0.3) url(uvamozadunje.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+}
+#banner{
+    margin-top: 15px;
+    padding: auto;
+}
+.navbar {
+    margin-top: 75px;
+    text-align: center;
+    font-family: impact;
+    text-shadow: 10px;
+}
+.navbar a {
+    display: block;
+    color: #ffffff; /* Svetla boja teksta */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Promena boje linkova pri prelasku mišem */
+.navbar a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    transition: 0.7s;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    text-shadow: 1px +3px 2px black;
+}
+.vutra{
+    border-radius: 5px;
+    background: url(zanavbar2.jpg);
+    background-blend-mode: darken;
+    width: 500px;
+    margin-left: 385px;
+}
